@@ -1,4 +1,9 @@
 #Tomcat Embedded Server Configuration
 server:
   port: 8081
-
+eureka:
+  client:
+    fetch-registry: true
+    register-with-eureka: true
+    service-url:
+      default-zone: http://localhost:8083/eureka
