@@ -6,6 +6,8 @@ eureka:
     serviceUrl:
       defaultZone: http://localhost:8083/eureka 
 spring:
+  application:
+    name: gateway-service
   cloud:
     gateway:
       routes:
