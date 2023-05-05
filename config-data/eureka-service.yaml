@@ -2,14 +2,7 @@ server:
   port: 8083
 eureka:
   client:
-<<<<<<< HEAD
     registerWithEureka: false
     fetchRegistry: false
     service-url:
       defaultZone: http://localhost:8083/eureka
-=======
-    fetch-registry: false
-    register-with-eureka: false
-    service-url: 
-       default-zone: http://localhost:8083/eureka
->>>>>>> bc1c57c7eb585cd77e5b64e344812ca82a02876a
